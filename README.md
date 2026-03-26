@@ -31,3 +31,6 @@ Con una contraseña de 8 caracteres complejos, una computadora normal podría ta
 
 El programa se volvería muy lento porque el número de combinaciones sube de forma exponencial.
 
+GRAFICA:
+Lamentablemente a la hora de ejecutar el código para la gráfica, no permite visualizar en el codespace, asi que tuve que hacer la grafica de manera local en mi pc para poder tomarle captura y unirla al repositorio. De todas maneras igual ahi está el código para poder ejecutarlo de forma local.
+
