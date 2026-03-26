@@ -13,3 +13,21 @@ Al terminar, me dice cuántos intentos le tomó y cuánto tiempo tardó en encon
 Cómo usarlo:
 Se debe colocar una contraseña en la variable contraseña, solo se puede de hasta 4 letras y minisculas
 
+Ejemplos de salida:
+Dependiendo de la contraseña que pongas en el código, verás algo como esto en tu pantalla:
+
+Ejemplo con contraseña "agpd":
+
+Contraseña encontrada: agpd
+Intentos realizados:  11634
+El tiempo fue:  1711382500.123
+
+Reflexión: ¿Qué pasa con contraseñas largas?
+Si intentamos usar este mismo método para una contraseña de 8 o más caracteres que incluya mayúsculas, números y símbolos, esto es lo que pasaría:
+
+Al agregar números (0-9) y símbolos (!@#$), el "alfabeto" que la computadora debe recorrer crece muchísimo. Ya no son solo 26 letras, sino más de 90 caracteres posibles.
+
+Con una contraseña de 8 caracteres complejos, una computadora normal podría tardar años o incluso décadas en encontrarla mediante fuerza bruta simple.
+
+El programa se volvería muy lento porque el número de combinaciones sube de forma exponencial.
+
